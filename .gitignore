@@ -1,0 +1,70 @@
+# Compiled output
+out/
+build/
+*.class
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+lib/
+lib/*
+*.jar
+
+# Test coverage
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Data files
+data/
+data/*
+*.xls
+*.xlsx
+*.csv
+*.txt
+
+# Picture files
+picture/
+picture/*
+*.png
+*.jpeg
+*.jpg
+
+# Documentation
+报告.docx
+*.pdf
+*.doc
+*.docx

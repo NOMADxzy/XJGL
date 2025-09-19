@@ -9,9 +9,9 @@ public class connectSQL {
 
         try {
             //1.加载驱动
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            //2.连接
-            Conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=EXP", "sa", "19991207Xzy");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            //2.连接 - 添加字符集参数解决中文乱码问题
+            Conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/EXP?characterEncoding=UTF-8&serverTimezone=UTC", "root", "991030xzy");
 
         }catch(Exception e) {
             e.printStackTrace();
